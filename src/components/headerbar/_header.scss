@@ -1,0 +1,32 @@
+._menu {
+    display: none;
+}
+
+._logo {
+    padding: 10px;
+    width: 140px;
+    margin-top: 4px;
+    max-height: 150px;
+    img {
+        display: block;
+        object-fit: contain;
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 551px) {
+    ._dropdown {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    ._menu {
+        display: block;
+        color: white;
+    }
+    
+    ._logo {
+        display: none;
+    }    
+}

@@ -1,0 +1,117 @@
+._basic {
+    padding-top: 2%;   
+}
+@media (min-width: 1231px) {
+    ._basic {
+        flex-direction: row;
+        padding-left: auto;
+        padding-right: auto;
+        column-gap: 30px;
+        p {
+            text-align: center;
+            border: 1px solid red;
+            padding: 2%;
+            box-shadow: 1px 1px 13px rgb(203, 88, 88);
+        }
+        ._align { row-gap: 17px; }    
+        ._bat, ._wk {
+            img {
+                width: 280px;
+                height: 510px;
+                border: 1px solid red;
+                box-shadow: 1px 1px 13px rgb(186, 64, 64);
+            }
+            &:hover {
+                transform: scale(1.01);
+            }
+        }    
+        ._ball {
+            img {
+                width: 190px;
+                height: 180px;
+                border: 1px solid red;
+                box-shadow: 1px 1px 13px rgb(186, 64, 64);
+            }
+            &:hover {
+                transform: scale(1.05);
+            }
+        }    
+        ._field {
+            img {
+                width: 190px;
+                height: 250px;
+                border: 1px solid red;
+                box-shadow: 1px 1px 13px rgb(186, 64, 64);
+            }
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }       
+}
+@media (min-width: 721px) and (max-width: 1230px) {
+    ._basic {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 3%;
+        column-gap: 25px;
+        p {
+            text-align: center;
+            border: 1px solid red;
+            padding: 2%;
+            box-shadow: 1px 1px 13px rgb(203, 88, 88);
+        }        
+        ._align { row-gap: 10px; }
+        ._bat, ._wk {
+            img {
+                width: 190px;
+                height: 325px;
+                border: 1px solid red;
+                box-shadow: 1px 1px 13px rgb(186, 64, 64);
+            }
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+        ._ball, ._field {
+            img {
+                margin-right: 57%;
+                width: 140px;
+                border: 1px solid red;
+                box-shadow: 1px 1px 13px rgb(186, 64, 64);
+            }
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    } 
+}
+@media (max-width:720px) {  
+    ._basic {
+        padding-top: 4%;
+        flex-direction: column;
+        padding-left: 25%;
+        row-gap: 20px;
+        p {
+            text-align: center;
+            margin-right: 47%;
+            border: 1px solid red;
+            padding: 2%;
+            box-shadow: 1px 1px 13px rgb(203, 88, 88);
+        }
+        ._align {
+            row-gap: 20px;
+        }
+        ._bat, ._wk, ._ball, ._field {
+            img {
+                width: 53%;
+                border: 1px solid red;
+                box-shadow: 1px 1px 13px rgb(186, 64, 64);
+            }
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }    
+}
