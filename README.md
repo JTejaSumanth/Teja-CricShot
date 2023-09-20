@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npx create-react-app my-app`
+Replace my-app with the name you want to give your React app. This command will use npx to fetch the latest version of create-react-app and create a new React project in a folder with the specified name.
+
+Navigate to the app's directory using the following command: `cd my-app` 
 ### `npm start`
 
 Runs the app in the development mode.\
