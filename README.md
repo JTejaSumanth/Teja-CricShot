@@ -72,3 +72,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Link of web App
+
+https://cricshot-3e594.web.app
+
+### Screenshots
+
+![Screenshot 2023-09-28 174513](https://github.com/JTejaSumanth/Teja-CricShot/assets/140799555/5c5e1361-4446-4966-a1d6-91afa1841e04)
+
+![Screenshot 2023-09-28 175125](https://github.com/JTejaSumanth/Teja-CricShot/assets/140799555/2e5d09da-90e7-4c80-be84-c09e518aa649)
+
+![Screenshot 2023-09-28 175834](https://github.com/JTejaSumanth/Teja-CricShot/assets/140799555/18919f51-f749-4c32-a84b-693c75bf5db4)
+
+![Screenshot 2023-09-28 180325](https://github.com/JTejaSumanth/Teja-CricShot/assets/140799555/8ddf32f4-8880-492d-a549-409f5c9e4a06)
